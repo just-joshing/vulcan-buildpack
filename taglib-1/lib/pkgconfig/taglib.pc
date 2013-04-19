@@ -1,0 +1,11 @@
+prefix=/app/vendor/taglib-1.8
+exec_prefix=/app/vendor/taglib-1.8
+libdir=/app/vendor/taglib-1.8/lib
+includedir=/app/vendor/taglib-1.8/include
+
+Name: TagLib
+Description: Audio meta-data library
+Requires: 
+Version: 1.8.0
+Libs: -L/app/vendor/taglib-1.8/lib -ltag
+Cflags: -I/app/vendor/taglib-1.8/include/taglib 
